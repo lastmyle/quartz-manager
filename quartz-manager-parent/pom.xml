@@ -33,6 +33,14 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/fabioformosa/quartz-manager</url>
+    </repository>
+  </distributionManagement>
+
   <developers>
     <developer>
       <name>Fabio Formosa</name>
