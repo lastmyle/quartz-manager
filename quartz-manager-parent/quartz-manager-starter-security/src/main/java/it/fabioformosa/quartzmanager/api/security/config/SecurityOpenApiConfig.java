@@ -13,7 +13,7 @@ import it.fabioformosa.quartzmanager.api.common.config.QuartzManagerPaths;
 import it.fabioformosa.quartzmanager.api.security.properties.JwtSecurityProperties;
 import lombok.Generated;
 import lombok.extern.slf4j.Slf4j;
-import org.springdoc.core.customizers.OpenApiCustomiser;
+import org.springdoc.core.customizers.OpenApiCustomizer;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,7 +30,7 @@ public class SecurityOpenApiConfig {
 
   @Order(Ordered.HIGHEST_PRECEDENCE)
   @Bean("quartzManagerOpenApiCustomiser")
-  public OpenApiCustomiser configureQuartzManagerOpenAPI(JwtSecurityProperties jwtSecurityProps) {
+  public OpenApiCustomizer configureQuartzManagerOpenAPI(JwtSecurityProperties jwtSecurityProps) {
     return openAPI -> {
       if (!jwtSecurityProps.getCookieStrategy().isEnabled())
         openAPI

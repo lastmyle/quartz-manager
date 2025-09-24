@@ -18,7 +18,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>17</java.version>
-    <springdoc-openapi.version>1.5.12</springdoc-openapi.version>
+    <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
     <sonar.exclusions>**/SpringApplicationTest.java</sonar.exclusions>
   </properties>
 
@@ -69,7 +69,7 @@
     <!-- OAS -->
     <dependency>
       <groupId>org.springdoc</groupId>
-      <artifactId>springdoc-openapi-ui</artifactId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
       <version>${springdoc-openapi.version}</version>
       <optional>true</optional>
     </dependency>
