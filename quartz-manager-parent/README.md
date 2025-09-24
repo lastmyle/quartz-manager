@@ -71,3 +71,4 @@ Starting from Quartz Manager v2.x.x, the new structure of project is:
 ## Contributes
 
 Every contribution is welcome. Open a github's issue, let's discuss about the new features and how to implement them.
+# Testing Java 17 build
