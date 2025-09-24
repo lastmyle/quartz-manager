@@ -23,28 +23,28 @@ To use Quartz Manager packages from GitHub Packages in your Maven project:
   <dependency>
     <groupId>it.fabioformosa.quartz-manager</groupId>
     <artifactId>quartz-manager-starter-api</artifactId>
-    <version>4.0.9</version>
+    <version>4.0.12</version>
   </dependency>
   
   <!-- Quartz Manager Security (optional) -->
   <dependency>
     <groupId>it.fabioformosa.quartz-manager</groupId>
     <artifactId>quartz-manager-starter-security</artifactId>
-    <version>4.0.9</version>
+    <version>4.0.12</version>
   </dependency>
   
   <!-- Quartz Manager Persistence (optional) -->
   <dependency>
     <groupId>it.fabioformosa.quartz-manager</groupId>
     <artifactId>quartz-manager-starter-persistence</artifactId>
-    <version>4.0.9</version>
+    <version>4.0.12</version>
   </dependency>
   
   <!-- Quartz Manager UI (optional) -->
   <dependency>
     <groupId>it.fabioformosa.quartz-manager</groupId>
     <artifactId>quartz-manager-starter-ui</artifactId>
-    <version>4.0.9</version>
+    <version>4.0.12</version>
   </dependency>
 </dependencies>
 ```
@@ -87,7 +87,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'it.fabioformosa.quartz-manager:quartz-manager-starter-api:4.0.9'
+    implementation 'it.fabioformosa.quartz-manager:quartz-manager-starter-api:4.0.12'
     // Add other modules as needed
 }
 ```
@@ -103,7 +103,7 @@ dependencies {
 
 ## Version Information
 
-- Current Version: 4.0.9
+- Current Version: 4.0.12
 - Java Version: 17+
 - Spring Boot: 2.5.6
 - SpringDoc OpenAPI: 2.2.0
