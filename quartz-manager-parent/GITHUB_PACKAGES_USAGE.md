@@ -1,8 +1,8 @@
-# Using Quartz Manager from GitHub Packages
+# Using Quartz Manager from LastMyle GitHub Packages
 
 ## Maven Configuration
 
-To use Quartz Manager packages from GitHub Packages in your Maven project:
+To use Quartz Manager packages from LastMyle's GitHub Packages in your Maven project:
 
 ### 1. Add Repository to your `pom.xml`:
 
@@ -10,7 +10,7 @@ To use Quartz Manager packages from GitHub Packages in your Maven project:
 <repositories>
   <repository>
     <id>github</id>
-    <url>https://maven.pkg.github.com/fabioformosa/quartz-manager</url>
+    <url>https://maven.pkg.github.com/lastmyle/quartz-manager</url>
   </repository>
 </repositories>
 ```
@@ -78,7 +78,7 @@ For Gradle projects, add to `build.gradle`:
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://maven.pkg.github.com/fabioformosa/quartz-manager")
+        url = uri("https://maven.pkg.github.com/lastmyle/quartz-manager")
         credentials {
             username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
             password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
